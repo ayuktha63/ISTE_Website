@@ -16,7 +16,7 @@ function Team() {
                 </h2>
             </div>
             <div className="team-grid">
-                <div className="team-card">
+                <div className="team-card" data-aos="fade-up">
                     <img src={teamMember1} alt="Team Member 1" className="team-image" />
                     <h3 className="team-name">Yash Chalhotre</h3>
                     <p className="team-role">Chairperson</p>
@@ -26,7 +26,7 @@ function Team() {
                         </a>
                     </div>
                 </div>
-                <div className="team-card">
+                <div className="team-card" data-aos="fade-up">
                     <img src={teamMember2} alt="Team Member 2" className="team-image" />
                     <h3 className="team-name">Krishna Prashanth</h3>
                     <p className="team-role">Vice Chairperson</p>
@@ -36,7 +36,7 @@ function Team() {
                         </a>
                     </div>
                 </div>
-                <div className="team-card">
+                <div className="team-card" data-aos="fade-up">
                     <img src={teamMember3} alt="Team Member 3" className="team-image" />
                     <h3 className="team-name">Kiran Biju</h3>
                     <p className="team-role">Joint Secretary</p>
@@ -46,7 +46,7 @@ function Team() {
                         </a>
                     </div>
                 </div>
-                <div className="team-card">
+                <div className="team-card" data-aos="fade-up">
                     <img src={teamMember1} alt="Team Member 1" className="team-image" />
                     <h3 className="team-name">Yash Chalhotre</h3>
                     <p className="team-role">Chairperson</p>
@@ -56,7 +56,7 @@ function Team() {
                         </a>
                     </div>
                 </div>
-                <div className="team-card">
+                <div className="team-card" data-aos="fade-up">
                     <img src={teamMember2} alt="Team Member 2" className="team-image" />
                     <h3 className="team-name">Krishna Prashanth</h3>
                     <p className="team-role">Vice Chairperson</p>
@@ -66,7 +66,7 @@ function Team() {
                         </a>
                     </div>
                 </div>
-                <div className="team-card">
+                <div className="team-card" data-aos="fade-up">
                     <img src={teamMember3} alt="Team Member 3" className="team-image" />
                     <h3 className="team-name">Kiran Biju</h3>
                     <p className="team-role">Joint Secretary</p>
@@ -76,7 +76,7 @@ function Team() {
                         </a>
                     </div>
                 </div>
-                <div className="team-card">
+                <div className="team-card" data-aos="fade-up">
                     <img src={teamMember1} alt="Team Member 1" className="team-image" />
                     <h3 className="team-name">Yash Chalhotre</h3>
                     <p className="team-role">Chairperson</p>
@@ -86,7 +86,7 @@ function Team() {
                         </a>
                     </div>
                 </div>
-                <div className="team-card">
+                <div className="team-card" data-aos="fade-up"> 
                     <img src={teamMember2} alt="Team Member 2" className="team-image" />
                     <h3 className="team-name">Krishna Prashanth</h3>
                     <p className="team-role">Vice Chairperson</p>

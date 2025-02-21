@@ -46,7 +46,7 @@ function App() {
             <>
               <Home />
               <Team />
-              <Events /> {/* Events Section after Team */}
+              <Events data-aos="fade-up" /> {/* Events Section after Team */}
               <AboutUs /> {/* About Us Section after Events */}
               <Footer /> {/* Footer Section at the bottom */}
             </>

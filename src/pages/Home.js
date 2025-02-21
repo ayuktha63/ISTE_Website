@@ -20,19 +20,19 @@ function Home() {
 
       {/* Image Section */}
       <div className="image-section">
-        <div className="image-card">
+        <div className="image-card" data-aos="fade-left">
           <img src={img1} alt="Event 1" className="image" />
           <div className="image-overlay">
             <p className="overlay-text">Event 1: E-Football</p>
           </div>
         </div>
-        <div className="image-card">
+        <div className="image-card" data-aos="zoom-in">
           <img src={img2} alt="Event 2" className="image" />
           <div className="image-overlay">
             <p className="overlay-text">Event 2: Theme Concept Challenge</p>
           </div>
         </div>
-        <div className="image-card">
+        <div className="image-card" data-aos="fade-right">
           <img src={img3} alt="Event 3" className="image" />
           <div className="image-overlay">
             <p className="overlay-text">Event 3: Food Spot Contest</p>
