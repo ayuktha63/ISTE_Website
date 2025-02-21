@@ -1,0 +1,214 @@
+/* Main Container */
+.home-container {
+  position: relative;
+  min-height: 100vh;
+  background-color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Title Section */
+.title-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #4a4a4a;
+}
+
+.main-title {
+  font-size: 4.5rem;
+  font-weight: 800;
+  margin-top: 1rem;
+  color: #1a1a1a;
+}
+
+.main-title span {
+  color: #d1d5db; /* Light gray color */
+}
+
+.description {
+  margin-top: 1.5rem;
+  color: #6b7280;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+/* Image Section */
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 1.5rem;
+  flex-wrap: wrap; /* Allow images to wrap on small screens */
+}
+
+/* Image Card Styling */
+.image-card {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-card:hover {
+  transform: scale(1.05);
+}
+
+/* Image Style */
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Hover Overlay Effect */
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
+}
+
+.image-card:hover .image-overlay {
+  opacity: 1;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Right-side Image Container */
+.right-image-container {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 300px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+  z-index: 0; /* Make sure the image stays behind text */
+}
+
+.right-image-container:hover .right-image {
+  opacity: 1;
+}
+
+/* Right Image Hover Effect */
+.right-image {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+/* Responsive Styles */
+
+/* Medium Screens (Tablets and below) */
+@media (max-width: 1024px) {
+  .main-title {
+    font-size: 3.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    max-width: 35rem;
+  }
+
+  .image-section {
+    gap: 1rem;
+  }
+
+  .image-card {
+    width: 220px;
+    height: 220px;
+  }
+
+  .overlay-text {
+    font-size: 1rem;
+  }
+
+  .right-image-container {
+    display: none; /* Hide the right-side image on tablets */
+  }
+}
+
+/* Small Screens (Mobile phones) */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    max-width: 90%;
+  }
+
+  .image-section {
+    gap: 0.5rem;
+    flex-direction: column; /* Stack images vertically */
+  }
+
+  .image-card {
+    width: 200px;
+    height: 200px;
+  }
+
+  .overlay-text {
+    font-size: 0.9rem;
+  }
+
+  /* Hide the right-side image on mobile */
+  .right-image-container {
+    display: none;
+  }
+}
+
+/* Extra Small Screens (Very small phones) */
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 0.875rem;
+    max-width: 90%;
+  }
+
+  .image-card {
+    width: 180px;
+    height: 180px;
+  }
+
+  .overlay-text {
+    font-size: 0.85rem;
+  }
+
+  /* Hide the right-side image on very small phones */
+  .right-image-container {
+    display: none;
+  }
+}

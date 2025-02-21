@@ -1,0 +1,30 @@
+/* AboutUs.css */
+
+.about-section {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    text-align: center;
+}
+.team-svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    animation: rotate180 2s linear infinite;
+}
+
+.about-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #051330;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.about-description {
+    font-size: 18px;
+    color: #545B5F;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
