@@ -8,14 +8,22 @@ import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer";
 import "./App.css";
 import VectorIcon from './assets/Vector/Default.svg';
-import CustomCursor from './assets/cursor.cur'; // Custom cursor image
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 2000);
     return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    const moveCursor = (e) => {
+      setCursorPosition({ x: e.clientX, y: e.clientY });
+    };
+    document.addEventListener("mousemove", moveCursor);
+    return () => document.removeEventListener("mousemove", moveCursor);
   }, []);
 
   if (loading) {
@@ -25,20 +33,32 @@ function App() {
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh',
-        backgroundColor: '#ffff',
-        cursor: `url(${CustomCursor}), auto`
+        backgroundColor: '#ffff'
       }}>
         <img src={VectorIcon} alt="Loading Icon" className="loading-svg" style={{
           width: '100px',
           height: '100px',
-          animation: 'rotate180 2s linear infinite' // Rotation animation
+          animation: 'rotate180 2s linear infinite'
         }} />
       </div>
     );
   }
 
   return (
-    <div style={{ cursor: `url(${CustomCursor}), auto` }}>
+    <div>
+      {/* Custom cursor effect */}
+      <div className="cursor-dot" style={{
+        position: 'fixed',
+        width: '10px',
+        height: '10px',
+        borderRadius: '50%',
+        backgroundColor: 'black',
+        boxShadow: '0 0 10px white',
+        pointerEvents: 'none',
+        transform: `translate(${cursorPosition.x}px, ${cursorPosition.y}px)`,
+        transition: 'transform 0.1s ease-out'
+      }}></div>
+
       <Router>
         <FloatingHeader />
         <Routes>
@@ -46,9 +66,9 @@ function App() {
             <>
               <Home />
               <Team />
-              <Events data-aos="fade-up" /> {/* Events Section after Team */}
-              <AboutUs /> {/* About Us Section after Events */}
-              <Footer /> {/* Footer Section at the bottom */}
+              <Events data-aos="fade-up" />
+              <AboutUs />
+              <Footer />
             </>
           } />
         </Routes>

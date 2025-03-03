@@ -86,12 +86,52 @@ function Team() {
                         </a>
                     </div>
                 </div>
-                <div className="team-card" data-aos="fade-up"> 
+                <div className="team-card" data-aos="fade-up">
                     <img src={teamMember2} alt="Team Member 2" className="team-image" />
                     <h3 className="team-name">Krishna Prashanth</h3>
                     <p className="team-role">Vice Chairperson</p>
                     <div className="team-overlay">
                         <a href="https://www.linkedin.com/in/krishna-prasanth-2121b61b3/" target="_blank" rel="noopener noreferrer">
+                            <img src={LinkedInIcon} alt="LinkedIn" className="linkedin-icon" />
+                        </a>
+                    </div>
+                </div>
+                <div className="team-card" data-aos="fade-up">
+                    <img src={teamMember1} alt="Team Member 1" className="team-image" />
+                    <h3 className="team-name">Yash Chalhotre</h3>
+                    <p className="team-role">Chairperson</p>
+                    <div className="team-overlay">
+                        <a href="https://www.linkedin.com/in/cdt-yash-chhalotre-55090b24b/" target="_blank" rel="noopener noreferrer">
+                            <img src={LinkedInIcon} alt="LinkedIn" className="linkedin-icon" />
+                        </a>
+                    </div>
+                </div>
+                <div className="team-card" data-aos="fade-up">
+                    <img src={teamMember1} alt="Team Member 1" className="team-image" />
+                    <h3 className="team-name">Yash Chalhotre</h3>
+                    <p className="team-role">Chairperson</p>
+                    <div className="team-overlay">
+                        <a href="https://www.linkedin.com/in/cdt-yash-chhalotre-55090b24b/" target="_blank" rel="noopener noreferrer">
+                            <img src={LinkedInIcon} alt="LinkedIn" className="linkedin-icon" />
+                        </a>
+                    </div>
+                </div>
+                <div className="team-card" data-aos="fade-up">
+                    <img src={teamMember1} alt="Team Member 1" className="team-image" />
+                    <h3 className="team-name">Yash Chalhotre</h3>
+                    <p className="team-role">Chairperson</p>
+                    <div className="team-overlay">
+                        <a href="https://www.linkedin.com/in/cdt-yash-chhalotre-55090b24b/" target="_blank" rel="noopener noreferrer">
+                            <img src={LinkedInIcon} alt="LinkedIn" className="linkedin-icon" />
+                        </a>
+                    </div>
+                </div>
+                <div className="team-card" data-aos="fade-up">
+                    <img src={teamMember1} alt="Team Member 1" className="team-image" />
+                    <h3 className="team-name">Yash Chalhotre</h3>
+                    <p className="team-role">Chairperson</p>
+                    <div className="team-overlay">
+                        <a href="https://www.linkedin.com/in/cdt-yash-chhalotre-55090b24b/" target="_blank" rel="noopener noreferrer">
                             <img src={LinkedInIcon} alt="LinkedIn" className="linkedin-icon" />
                         </a>
                     </div>
