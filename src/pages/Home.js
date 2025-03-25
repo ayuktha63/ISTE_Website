@@ -1,15 +1,23 @@
-
 import React from 'react';
 import './Home.css';
 import img1 from '../assets/image1.png';
 import img2 from '../assets/image2.png';
 import img3 from '../assets/image3.png';
-import rightImage from '../assets/bulb.png'; // Import the image you want to display on the right
+import rightImage from '../assets/bulb.png';
+import Squares from '../blocks/Backgrounds/Squares/Squares';
 
 function Home() {
   return (
     <div className="home-container" id="Home">
-      {/* Main Content */}
+      <div className="background-layer">
+        <Squares 
+          speed={0.5} 
+          squareSize={40}
+          direction='none'
+          borderColor='#fff'
+          hoverFillColor='#222'
+        />
+      </div>
       <h2 className="title-heading">MBCET Presents</h2>
       <h1 className="main-title">
         ISTE <span>SB</span>
@@ -17,8 +25,6 @@ function Home() {
       <p className="description">
         Advancing technical education since 1976, ISTE MBCET fosters innovation, skill development, and professional growth for students and educators.
       </p>
-
-      {/* Image Section */}
       <div className="image-section">
         <div className="image-card" data-aos="fade-left">
           <img src={img1} alt="Event 1" className="image" />
@@ -39,8 +45,6 @@ function Home() {
           </div>
         </div>
       </div>
-
-      {/* Right Side Image */}
       <div className="right-image-container">
         <img src={rightImage} alt="RightSideImage" className="right-image" />
       </div>

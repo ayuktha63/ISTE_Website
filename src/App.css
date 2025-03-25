@@ -2,8 +2,37 @@
   text-align: center;
   scroll-behavior: smooth;
 }
+
 html {
-  scroll-behavior: smooth; /* Enable smooth scrolling for anchor links */
+  scroll-behavior: smooth;
+  /* Enable smooth scrolling for anchor links */
+}
+
+/* Loading screen styles */
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.loading-svg {
+  width: 100px;
+  height: 100px;
+  animation: rotate180 2s linear infinite;
+}
+
+/* Custom cursor effect */
+.cursor-dot {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: 0 0 10px white;
+  pointer-events: none;
+  transition: transform 0.1s ease-out;
 }
 
 .App-logo {
@@ -16,13 +45,16 @@ html {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 .top-right-image {
   position: absolute;
   top: 10px;
   right: 10px;
-  width: 100px; /* Adjust the size as needed */
+  width: 100px;
+  /* Adjust the size as needed */
   height: auto;
-  z-index: 1000; /* Makes sure it stays on top */
+  z-index: 1000;
+  /* Makes sure it stays on top */
 }
 
 .App-header {
@@ -44,14 +76,17 @@ html {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 @keyframes rotate180 {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(180deg);
   }

@@ -1,11 +1,17 @@
+
+// src/App.js
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import FloatingHeader from "./components/Header";
+import Header from "./components/Header";
 import Home from "./pages/Home";
 import Team from "./pages/Team";
 import Events from "./pages/Events";
 import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer";
+import Mentors from "./pages/Mentors";
+import CoreTeam from "./pages/CoreTeam";
+import TechTeam from "./pages/TechTeam";
+import EventManagement from "./pages/EventManagement";
 import "./App.css";
 import VectorIcon from './assets/Vector/Default.svg';
 
@@ -60,7 +66,7 @@ function App() {
       }}></div>
 
       <Router>
-        <FloatingHeader />
+        <Header />
         <Routes>
           <Route path="/" element={
             <>
@@ -71,6 +77,10 @@ function App() {
               <Footer />
             </>
           } />
+          <Route path="/Mentors" element={<Mentors />} />
+          <Route path="/CoreTeam" element={<CoreTeam />} />
+          <Route path="/TechTeam" element={<TechTeam />} />
+          <Route path="/EventManagement" element={<EventManagement />} />
         </Routes>
       </Router>
     </div>
