@@ -13,6 +13,12 @@ const coreTeamData = [
         role: "Joint Secretary",
         image: require("../assets/krishna_core.jpg"),
         linkedin: "https://www.linkedin.com/in/krishna-prasanth-2121b61b3"
+    },
+    {
+        name: "Snith Shibu ",
+        role: "General Secretary ",
+        image: require("../assets/snith_core.jpeg"),
+        linkedin: "https://www.linkedin.com/in/snithshibu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     }
 ];
 
