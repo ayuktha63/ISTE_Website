@@ -5,13 +5,13 @@ const mentorsData = [
     {
         name: "Dr. John Doe",
         role: "Senior Advisor",
-        image: require("../assets/krishna.jpg"),
+        // image: require("../assets/krishna.jpg"),
         linkedin: "https://www.linkedin.com/in/johndoe/"
     },
     {
         name: "Prof. Jane Smith",
         role: "Research Mentor",
-        image: require("../assets/krishna.jpg"),
+        // image: require("../assets/krishna.jpg"),
         linkedin: "https://www.linkedin.com/in/janesmith/"
     }
 ];

@@ -3,16 +3,16 @@ import TeamPage from "../components/TeamPage";
 
 const coreTeamData = [
     {
-        name: "Krishna Prashanth",
-        role: "Vice Chairperson",
-        image: require("../assets/krishna.jpg"),
-        linkedin: "https://www.linkedin.com/in/krishna-prasanth-2121b61b3/"
+        name: "Yash Chhalotre ",
+        role: "Chairperson",
+        image: require("../assets/yash_core.jpeg"),
+        linkedin: "https://www.linkedin.com/in/cdt-yash-chhalotre-55090b24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
     {
-        name: "Kiran Biju",
+        name: "Krishna Prasanth",
         role: "Joint Secretary",
-        image: require("../assets/kiran.jpg"),
-        linkedin: "https://www.linkedin.com/in/kiran-biju"
+        image: require("../assets/krishna_core.jpg"),
+        linkedin: "https://www.linkedin.com/in/krishna-prasanth-2121b61b3"
     }
 ];
 

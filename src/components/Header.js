@@ -60,6 +60,15 @@ function Header() {
             >
               Event Management
             </Link>
+            <Link to="/SheTeam" className="dropdown-item" onClick={toggleMenu}>
+              She Team
+            </Link>
+            <Link to="/DesignTeam" className="dropdown-item" onClick={toggleMenu}>
+              Design Team
+            </Link>
+            <Link to="/ContentTeam" className="dropdown-item" onClick={toggleMenu}>
+              Content Team
+            </Link>
           </div>
         </div>
 
