@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cff836f41f190b4613185a4ee744b151",
+    "revision": "a505eb0b8d7bdfb2f753063da5512fec",
     "url": "/index.html"
   },
   {
-    "revision": "49501d5c667dab75768f",
+    "revision": "54d79d147f51d8d79dd5",
     "url": "/static/css/2.83d756e6.chunk.css"
   },
   {
-    "revision": "4d0ad84a94df10b4b607",
-    "url": "/static/css/main.bdcd6d67.chunk.css"
+    "revision": "cb0674781797eb3cce3d",
+    "url": "/static/css/main.e1cd0510.chunk.css"
   },
   {
-    "revision": "49501d5c667dab75768f",
-    "url": "/static/js/2.28001af4.chunk.js"
+    "revision": "54d79d147f51d8d79dd5",
+    "url": "/static/js/2.6143335d.chunk.js"
   },
   {
     "revision": "1aef9e0d481a6908c30509eb88500877",
-    "url": "/static/js/2.28001af4.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6143335d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4d0ad84a94df10b4b607",
-    "url": "/static/js/main.2a22097d.chunk.js"
+    "revision": "cb0674781797eb3cce3d",
+    "url": "/static/js/main.28dec707.chunk.js"
   },
   {
     "revision": "67f105f764696c0853b4",
@@ -36,8 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Joan_Joe_event.d52995f0.jpg"
   },
   {
+    "revision": "c8e2cc035dd6f8609c804a2e83d2897d",
+    "url": "/static/media/aadi_event.c8e2cc03.jpg"
+  },
+  {
     "revision": "e9dcb47e5c688c026bc84576cc861939",
     "url": "/static/media/abhinav_design.e9dcb47e.jpeg"
+  },
+  {
+    "revision": "880bf38e6b52c1d7d76527cea7531ac8",
+    "url": "/static/media/aditya_arun_design.880bf38e.jpg"
   },
   {
     "revision": "ecee851be81aa8612c1eb7d677ff46fe",
@@ -84,6 +92,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedln.67cddf2d.svg"
   },
   {
+    "revision": "4b259b3a3a778223a1df2cfbddc42672",
+    "url": "/static/media/megha_content.4b259b3a.jpg"
+  },
+  {
+    "revision": "bcb311c6e9aaa7469bb0fdbfdaabad7d",
+    "url": "/static/media/nandana_event.bcb311c6.jpeg"
+  },
+  {
     "revision": "5ea61acb263d464132442e6b96005e6e",
     "url": "/static/media/pushkala_content.5ea61acb.jpg"
   },
@@ -92,12 +108,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/reshma_she.c81da6dc.jpeg"
   },
   {
+    "revision": "7be0faf25956fb6a87a26f07b06d57f1",
+    "url": "/static/media/rishika_content.7be0faf2.jpg"
+  },
+  {
     "revision": "301ff53d951240ffca96048cee2d23ee",
     "url": "/static/media/sariga_design.301ff53d.jpeg"
   },
   {
     "revision": "7a3c8eecaae4282384b20d8cbc34fa91",
     "url": "/static/media/snith_core.7a3c8eec.jpeg"
+  },
+  {
+    "revision": "c384de6a9858215c1e68aff7ea0bd97d",
+    "url": "/static/media/varsha_she.c384de6a.jpg"
   },
   {
     "revision": "bcd8badd648d9be11fc9fc8745704c9f",

@@ -4,7 +4,7 @@ import LinkedInIcon from '../assets/Vector/linkedln.svg';
 
 const TeamPage = ({ title, description, teamMembers }) => {
     return (
-        <section className="team-section">
+        <section className="teamsection">
             <div className="team-header">
                 <h2 className="team-title">{title}</h2>
                 <p className="team-description">{description}</p>
