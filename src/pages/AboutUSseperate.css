@@ -1,0 +1,318 @@
+.iste-about-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f5f5, #e5e7eb); /* Light gray gradient inspired by Home */
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a; /* Dark gray from Home */
+    overflow-x: hidden;
+  }
+  
+  /* Header */
+  .iste-about-header {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: rgba(255, 255, 255, 0.95); /* Solid white background from Home */
+    position: relative;
+  }
+  
+  .iste-about-header-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #1a1a1a; /* Dark gray from Home */
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .iste-about-header-subtitle {
+    font-size: 1.4rem;
+    color: #6b7280; /* Medium gray from Home */
+    font-style: italic;
+  }
+  
+  /* What is ISTE Section */
+  .iste-about-what-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+  }
+  
+  .iste-about-what-content {
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.95); /* Solid white background from Home */
+    padding: 2rem;
+    border-radius: 10px; /* Inspired by Home's image-card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow from Home */
+  }
+  
+  .iste-about-section-title {
+    font-size: 2.5rem;
+    color: #4a4a4a; /* Medium-dark gray from Home */
+    margin-bottom: 1.5rem;
+    position: relative;
+    font-weight: 600;
+  }
+  
+  .iste-about-section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background: #d1d5db; /* Light gray from Home */
+    border-radius: 2px;
+  }
+  
+  .iste-about-what-content p,
+  .iste-about-what-content ul {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #6b7280; /* Medium gray from Home */
+  }
+  
+  .iste-about-what-content ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+    text-align: left;
+  }
+  
+  /* Timeline Section */
+  .iste-about-timeline-section {
+    padding: 4rem 2rem;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), #f5f5f5); /* White to light gray */
+  }
+  
+  .iste-about-timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  .iste-about-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background: #d1d5db; /* Light gray line from Home */
+    z-index: 0;
+  }
+  
+  .iste-about-timeline-item {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+  }
+  
+  .iste-about-timeline-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .iste-about-timeline-dot {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 16px;
+    height: 16px;
+    background: #4a4a4a; /* Medium-dark gray from Home */
+    border-radius: 50%;
+    border: 3px solid #fff;
+    z-index: 2;
+  }
+  
+  .iste-about-timeline-content {
+    background: rgba(255, 255, 255, 0.95); /* Solid white background from Home */
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow from Home */
+    position: relative;
+    z-index: 1;
+  }
+  
+  .iste-about-timeline-item:nth-child(odd) .iste-about-timeline-content {
+    margin-left: 55%;
+  }
+  
+  .iste-about-timeline-item:nth-child(even) .iste-about-timeline-content {
+    margin-right: 55%;
+    text-align: right;
+  }
+  
+  .iste-about-timeline-content h3 {
+    font-size: 1.6rem;
+    color: #1a1a1a; /* Dark gray from Home */
+    font-weight: 600;
+  }
+  
+  .iste-about-timeline-content p {
+    font-size: 1rem;
+    color: #6b7280; /* Medium gray from Home */
+  }
+  
+  /* Achievements Section */
+  .iste-about-achievements-section {
+    padding: 4rem 2rem;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .iste-about-achievements-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .iste-about-achievement-card {
+    background: rgba(255, 255, 255, 0.95); /* Solid white background from Home */
+    padding: 2rem;
+    border-radius: 10px; /* Inspired by Home */
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow from Home */
+    transition: transform 0.3s ease;
+  }
+  
+  .iste-about-achievement-card:hover {
+    transform: scale(1.05); /* Hover effect from Home */
+  }
+  
+  .iste-about-achievement-card h3 {
+    font-size: 1.8rem;
+    color: #1a1a1a; /* Dark gray from Home */
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .iste-about-achievement-card p {
+    font-size: 1rem;
+    color: #6b7280; /* Medium gray from Home */
+  }
+  
+  /* Activities Section */
+  .iste-about-activities-section {
+    padding: 4rem 2rem;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.95), #f5f5f5); /* White to light gray */
+  }
+  
+  .iste-about-activities-content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .iste-about-activities-content h3 {
+    font-size: 1.8rem;
+    color: #4a4a4a; /* Medium-dark gray from Home */
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .iste-about-activities-content ul {
+    list-style-type: square;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: #6b7280; /* Medium gray from Home */
+  }
+  
+  .iste-about-activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .iste-about-activity-card {
+    background: rgba(255, 255, 255, 0.95); /* Solid white background from Home */
+    padding: 1.5rem;
+    border-radius: 10px; /* Inspired by Home */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow from Home */
+  }
+  
+  .iste-about-activity-card h4 {
+    font-size: 1.4rem;
+    color: #1a1a1a; /* Dark gray from Home */
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .iste-about-activity-card p {
+    font-size: 1rem;
+    color: #6b7280; /* Medium gray from Home */
+  }
+  
+  .iste-about-photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .iste-about-photo {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px; /* Inspired by Home */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow from Home */
+    transition: transform 0.3s ease; /* Hover effect from Home */
+  }
+  
+  .iste-about-photo:hover {
+    transform: scale(1.05); /* Hover effect from Home */
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .iste-about-header-title {
+      font-size: 2.5rem;
+    }
+  
+    .iste-about-timeline::before {
+      left: 20px; /* Move line to left on smaller screens */
+    }
+  
+    .iste-about-timeline-item {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 2rem;
+    }
+  
+    .iste-about-timeline-content {
+      width: 80%;
+      margin-left: 40px !important; /* Align content to the right of the dot */
+      margin-right: 0 !important;
+      text-align: left !important;
+    }
+  
+    .iste-about-timeline-dot {
+      left: 20px; /* Align dot with the line */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .iste-about-header-title {
+      font-size: 2rem;
+    }
+  
+    .iste-about-section-title {
+      font-size: 2rem;
+    }
+  
+    .iste-about-timeline-content {
+      width: 70%;
+    }
+  }

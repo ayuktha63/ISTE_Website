@@ -18,6 +18,7 @@ import DesignTeam from "./pages/DesignTeam";
 import SheTeam from "./pages/SheTeam";
 import ContentTeam from "./pages/ContentTeam";
 import SecretPortfolio from "./pages/SecretPortfolio";
+import AboutUSseperate from "./pages/AboutUSseperate";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -89,6 +90,7 @@ function App() {
           <Route path="/SheTeam" element={<SheTeam />} />
           <Route path="/ContentTeam" element={<ContentTeam />} />
           <Route path="/ayuktha" element={<SecretPortfolio />} />
+          <Route path="/AboutUS" element={<AboutUSseperate/>} />
         </Routes>
       </Router>
     </div>
