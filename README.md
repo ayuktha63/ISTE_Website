@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+# ISTE MBCET Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the official repository for the ISTE (Indian Society for Technical Education) website of Mar Baselios College of Engineering and Technology (MBCET). This project is built using [Create React App](https://github.com/facebook/create-react-app) and hosted on Netlify at [iste-mbcet.netlify.app](https://iste-mbcet.netlify.app).
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+This repository contains the source code for the ISTE MBCET website, a platform to showcase events, updates, and resources related to the ISTE chapter at MBCET. The site is developed with React and deployed as a static site on Netlify for fast, reliable hosting.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Follow these instructions to set up and run the project locally.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+- [Node.js](https://nodejs.org/) (v14 or later recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- A GitHub account (for version control)
+- A Netlify account (for deployment)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. **Clone the Repository**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/ayuktha63/ISTE_Website.git
+   cd iste-mbcet
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Available Scripts
 
-### `npm run eject`
+In the project directory, you can run the following commands:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### `npm start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload automatically when you make changes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### `npm test`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Launches the test runner in interactive watch mode. See [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more details.
+
+#### `npm run build`
+
+Builds the app for production into the `build` folder. The output is optimized and minified, ready for deployment.
+
+#### `npm run eject`
+
+**Note:** This is a one-way operation. It exposes all configuration files for full customization but removes the simplicity of Create React App.
+
+## Deployment on Netlify
+
+The ISTE MBCET website is hosted on Netlify at [iste-mbcet.netlify.app](https://iste-mbcet.netlify.app). Follow these steps to deploy or update the site:
+
+### Prerequisites for Deployment
+
+- A GitHub repository with this project pushed to it.
+- A Netlify account linked to your GitHub.
+
+### Steps to Deploy
+
+1. **Push to GitHub**
+   Ensure all changes are committed and pushed to your GitHub repository:
+
+   ```bash
+   git add .
+   git commit -m "Initial commit for ISTE MBCET website"
+   git push origin main
+   ```
+
+2. **Set Up on Netlify**
+
+   - Log in to [Netlify](https://app.netlify.com/).
+   - Click **New site from Git**.
+   - Select **GitHub** as the provider and authorize Netlify.
+   - Choose the `iste-mbcet` repository.
+   - Configure the build settings:
+     - **Build command:** `npm run build`
+     - **Publish directory:** `build`
+   - Click **Deploy site**.
+
+3. **Custom Domain**
+
+   - After deployment, Netlify assigns a random URL (e.g., `random-name.netlify.app`).
+   - To use `iste-mbcet.netlify.app`, go to **Site settings > Change site name** and set it to `iste-mbcet`.
+
+4. **Continuous Deployment**
+   - Netlify automatically rebuilds and deploys the site whenever you push changes to the `main` branch on GitHub.
+
+### Verifying Deployment
+
+Once deployed, visit [iste-mbcet.netlify.app](https://iste-mbcet.netlify.app) to ensure the site is live. Check the Netlify dashboard for build logs if there are issues.
+
+## Project Structure
+
+```
+iste-mbcet/
+├── public/          # Static assets (index.html, favicon, etc.)
+├── src/             # React source files
+    ├── components/             # Components Files
+    ├── pages/             # Page files
+├── build/           # Production build output (generated by npm run build)
+├── package.json     # Project dependencies and scripts
+└── README.md        # This file
+```
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React Documentation](https://reactjs.org/)
+- [Netlify Documentation](https://docs.netlify.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+Contributions are welcome! Please fork this repository, make your changes, and submit a pull request. For major changes, open an issue first to discuss your ideas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding! Visit us at [iste-mbcet.netlify.app](https://iste-mbcet.netlify.app).

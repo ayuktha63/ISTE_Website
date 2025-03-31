@@ -8,11 +8,15 @@
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
+    "lil-gui": "^0.20.0",
+    "ogl": "^1.0.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^6.22.3",
     "react-scripts": "^3.0.1",
+    "stats.js": "^0.17.0",
     "tailwindcss": "^4.0.7",
+    "three": "^0.175.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
