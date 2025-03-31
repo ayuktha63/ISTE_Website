@@ -21,7 +21,9 @@ function Footer() {
                     <div className="footer-socials">
                         <div className="icon-wrapper">
                             <a href="https://www.instagram.com/istembcet/" target="_blank" rel="noopener noreferrer">
-                                <img src={instagramIcon} alt="Instagram" className="social-icon" />
+                                <img src={instagramIcon} alt="Instagram" className="  
+    
+    social-icon" />
                             </a>
                         </div>
                         <div className="icon-wrapper">
@@ -35,7 +37,6 @@ function Footer() {
                             </a>
                         </div>
                     </div>
-
                 </div>
 
                 {/* Small Footer Sections */}
@@ -59,7 +60,7 @@ function Footer() {
             {/* Bottom Footer Bar */}
             <div className="bottom-footer">
                 <span className="bottom-footer-text">@2025-ISTE MBCET</span>
-                <span className="bottom-footer-text">Terms & Conditions, Privacy</span>
+                <span className="bottom-footer-text">Designed and Developed by Krishna Prasad</span>
             </div>
         </>
     );

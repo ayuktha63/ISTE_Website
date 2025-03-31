@@ -9,10 +9,10 @@ const sheTeamData = [
         linkedin: "https://www.linkedin.com/in/reshma-rl-3a3111212?"
     },
     {
-        name: "Riya Verma",
-        role: "Community Outreach",
-        // image: require("../assets/riya.jpg"),
-        linkedin: "https://www.linkedin.com/in/riya-verma"
+        name: "Varsha Mary",
+        role: "Sub-Head SHE Team",
+        image: require("../assets/varsha_she.jpg"),
+        linkedin: "https://www.linkedin.com/in/varsha-mary-9687022a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     }
 ];
 

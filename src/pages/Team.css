@@ -2,7 +2,7 @@
 .team-section {
     background: linear-gradient(135deg, #e5e6f0, #ffffff);
     padding: 4rem 2rem;
-    
+    min-height: 100vh;
     text-align: center;
 }
 

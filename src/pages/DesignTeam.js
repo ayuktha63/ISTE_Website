@@ -13,6 +13,12 @@ const designTeamData = [
         role: "UI/UX Designer",
         image: require("../assets/sariga_design.jpeg"),
         linkedin: "https://www.linkedin.com/in/sariga-joseph-fredy-565473340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    },
+    {
+        name: "Aditya arun",
+        role: "sub head ",
+        image: require("../assets/aditya_arun_design.jpg"),
+        linkedin: ""
     }
 ];
 

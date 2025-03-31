@@ -13,7 +13,20 @@ const eventManagementTeamData = [
         role: "Logistics Head",
         image: require("../assets/arya_event.png"),
         linkedin: "https://in.linkedin.com/in/arya-v-448103307"
+    },
+    {
+        name: "Nandana D",
+        role: "Event management head",
+        image: require("../assets/nandana_event.jpeg"),
+        linkedin: "https://in.linkedin.com/in/nandana-d-489605284"
+    },
+    {
+        name: "Aadi Shankar Pillai ",
+        role: "Sub Head",
+        image: require("../assets/aadi_event.jpg"),
+        linkedin: "www.linkedin.com/in/aadi-shankar-163784256"
     }
+    
 ];
 
 const EventManagement = () => {
