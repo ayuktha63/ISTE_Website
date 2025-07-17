@@ -18,6 +18,18 @@ const contentTeamData = [
         role: "Subhead of Doumentation and Content team",
         image: require("../assets/megha_content.jpg"),
         linkedin: "https://www.linkedin.com/in/megha-susan-undefined-aaa166307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+        name: "Sneha A Oommen",
+        role: "Member of Content and Documentation team",
+        image: require("../assets/sneha_content.jpg"),
+        linkedin: "https://www.linkedin.com/in/sneha-a-oommen-50a0aa328"
+    },
+    {
+        name: "Adithyan. M. S",
+        role: "Content writer ",
+        image: require("../assets/adhithyan_content.jpg"),
+        linkedin: "https://www.linkedin.com/in/adithyan-m-s-nandhu-b40a94357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     }
 ];
 

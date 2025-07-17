@@ -3,7 +3,7 @@ import TeamPage from "../components/TeamPage";
 
 const eventManagementTeamData = [
     {
-        name: "Akhil Raj",
+        name: "Joan Joe",
         role: "Event Coordinator",
         image: require("../assets/Joan_Joe_event.jpg"),
         linkedin: "https://www.linkedin.com/in/joan-eliza-joe-101b94297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -25,6 +25,24 @@ const eventManagementTeamData = [
         role: "Sub Head",
         image: require("../assets/aadi_event.jpg"),
         linkedin: "www.linkedin.com/in/aadi-shankar-163784256"
+    },
+        {
+        name: "Sidharth Sumitra Gireesh ",
+        role: "Event Team Sub Lead ",
+        image: require("../assets/sidharthevent.jpg"),
+        linkedin: "https://www.linkedin.com/in/sidharth-sumitra-gireesh-2bb3132aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+        {
+        name: "Arya V",
+        role: "Sub Head",
+        image: require("../assets/anjana_event.jpg"),
+        linkedin: "https://in.linkedin.com/in/arya-v-448103307"
+    },
+        {
+        name: "Angel Rose Prince ",
+        role: "Team Assist",
+        image: require("../assets/angel_event.jpg"),
+        linkedin: "https://www.linkedin.com/in/angel-rose-prince-83142b328"
     }
     
 ];

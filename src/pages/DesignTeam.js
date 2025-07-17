@@ -19,6 +19,12 @@ const designTeamData = [
         role: "sub head ",
         image: require("../assets/aditya_arun_design.jpg"),
         linkedin: ""
+    },
+    {
+        name: "Jenza Mary Jose ",
+        role: "Designer",
+        image: require("../assets/jenza_design.jpg"),
+        linkedin: "https://www.linkedin.com/in/jenza-mary-jose-427a54327"
     }
 ];
 

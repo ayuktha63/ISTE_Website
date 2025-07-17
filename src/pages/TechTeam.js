@@ -3,19 +3,19 @@ import TeamPage from "../components/TeamPage";
 
 const techTeamData = [
     {
-        name: "Rahul Menon",
-        role: "Tech Lead",
-        // image: require("../assets/rahul.jpg"),
-        linkedin: "https://www.linkedin.com/in/rahul-menon"
+        name: "Krishna Prasad",
+        role: "Tech Co-Lead",
+        image: require("../assets/krishna.png"),
+        linkedin: "https://www.linkedin.com/in/krishna-prasad63/"
     },
     {
-        name: "Sneha Iyer",
-        role: "Software Developer",
+        name: "Sudhin Suresh",
+        role: "Tech Lead",
         // image: require("../assets/sneha.jpg"),
         linkedin: "https://www.linkedin.com/in/sneha-iyer"
     },
     {
-        name: "Arjun Das",
+        name: "Anas Muhammed",
         role: "Cloud & DevOps Engineer",
         // image: require("../assets/arjun.jpg"),
         linkedin: "https://www.linkedin.com/in/arjun-das"
