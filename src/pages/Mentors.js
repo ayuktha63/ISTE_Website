@@ -3,9 +3,15 @@ import TeamPage from "../components/TeamPage";
 
 const mentorsData = [
     {
-        name: "Dr. John Doe",
-        role: "Senior Advisor",
-        // image: require("../assets/krishna.jpg"),
+        name: "Mr Melvin Jacob",
+        role: (
+            <>
+                Assistant Professor
+                <br />
+                Dept of Mechanical Engineering
+            </>
+        ),
+        image: require("../assets/melvin_faculty.jpg"),
         linkedin: "https://www.linkedin.com/in/johndoe/"
     },
     {
@@ -15,6 +21,7 @@ const mentorsData = [
         linkedin: "https://www.linkedin.com/in/janesmith/"
     }
 ];
+
 
 const Mentors = () => {
     return (

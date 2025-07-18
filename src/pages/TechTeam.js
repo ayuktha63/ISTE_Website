@@ -13,12 +13,6 @@ const techTeamData = [
         role: "Tech Lead",
         // image: require("../assets/sneha.jpg"),
         linkedin: "https://www.linkedin.com/in/sneha-iyer"
-    },
-    {
-        name: "Anas Muhammed",
-        role: "Cloud & DevOps Engineer",
-        // image: require("../assets/arjun.jpg"),
-        linkedin: "https://www.linkedin.com/in/arjun-das"
     }
 ];
 

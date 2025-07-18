@@ -19,6 +19,18 @@ const coreTeamData = [
         role: "General Secretary ",
         image: require("../assets/snith_core.jpeg"),
         linkedin: "https://www.linkedin.com/in/snithshibu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    },
+    {
+        name: "Kiran Biju",
+        role: "Joint Secretary",
+        image: require("../assets/kiran_core.jpg"),
+        linkedin: "https://www.linkedin.com/in/kiran-biju-221dob/"
+    },
+    {
+        name: "Niranjan Raj",
+        role: "Treasurer",
+        image: require("../assets/niranjan_core.jpg"),
+        linkedin: ""
     }
 ];
 

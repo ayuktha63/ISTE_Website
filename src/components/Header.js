@@ -27,9 +27,11 @@ function Header() {
           ISTE <span className="highlight">MBCET</span>
         </span>
       </div>
+
       <button className="hamburger" onClick={toggleMenu}>
-        ☰ {/* Hamburger icon (can be replaced with an SVG) */}
+        ☰
       </button>
+
       <nav className={`nav-links ${isMenuOpen ? "active" : ""}`}>
         <Link to="/" className="nav-link" onClick={toggleMenu}>
           Home
@@ -68,6 +70,14 @@ function Header() {
             </Link>
             <Link to="/ContentTeam" className="dropdown-item" onClick={toggleMenu}>
               Content Team
+            </Link>
+            {/* ✅ PR & Media Team added below */}
+            <Link
+              to="/PrAndMediaTeam"
+              className="dropdown-item"
+              onClick={toggleMenu}
+            >
+              PR & Media Team
             </Link>
           </div>
         </div>

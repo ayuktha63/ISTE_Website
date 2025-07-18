@@ -43,6 +43,12 @@ const eventManagementTeamData = [
         role: "Team Assist",
         image: require("../assets/angel_event.jpg"),
         linkedin: "https://www.linkedin.com/in/angel-rose-prince-83142b328"
+    },
+        {
+        name: "Bhavine V J",
+        role: "Team Assist",
+        image: require("../assets/bhavine_event.jpg"),
+        linkedin: "https://www.linkedin.com/in/bhavine-vj-61a98a348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     }
     
 ];
