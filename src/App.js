@@ -19,6 +19,7 @@ import SheTeam from "./pages/SheTeam";
 import ContentTeam from "./pages/ContentTeam";
 import SecretPortfolio from "./pages/SecretPortfolio";
 import AboutUSseperate from "./pages/AboutUSseperate";
+import PrAndMediaTeam from "./pages/PrAndMediaTeam";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -91,6 +92,7 @@ function App() {
           <Route path="/ContentTeam" element={<ContentTeam />} />
           <Route path="/ayuktha" element={<SecretPortfolio />} />
           <Route path="/AboutUS" element={<AboutUSseperate/>} />
+          <Route path="/PrAndMediaTeam" element={<PrAndMediaTeam/>} />
         </Routes>
       </Router>
     </div>
